@@ -38,14 +38,18 @@ const Contact = () => {
         />
         <div>
           <h1 className="text-white font-bold">Contact Me On: </h1>
-          <div className="flex items-center gap-3 mt-3">
-            <img src={gmailImage} alt="Gmail" className="text-white w-6" />
-            <p className="text-white">syahrul.rizal258@gmail.com</p>
-          </div>
-          <div className="flex items-center gap-3 mt-3">
-            <img src={instagramImage} alt="Instagram" className="text-white w-6" />
-            <p className="text-white">@syahrul_rizal14</p>
-          </div>
+          <a href="mailto:syahrul.rizal258@gmail.com">
+            <div className="flex items-center gap-3 mt-3">
+              <img src={gmailImage} alt="Gmail" className="text-white w-6" />
+              <p className="text-white">syahrul.rizal258@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/syahrul_rizal14/?hl=id">
+            <div className="flex items-center gap-3 mt-3">
+              <img src={instagramImage} alt="Instagram" className="text-white w-6" />
+              <p className="text-white">@syahrul_rizal14</p>
+            </div>
+          </a>
         </div>
       </motion.div>
     </section>
