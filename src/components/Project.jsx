@@ -7,6 +7,7 @@ import movieImage from '../assets/movie.png';
 import palImage from '../assets/pal.png';
 import expenseImage from '../assets/expense.png';
 import rulfreelancerImage from '../assets/rulfreelancer.png';
+import yiMtcImage from '../assets/yi-mtc.webp';
 
 const Project = () => {
   const controls = useAnimation();
@@ -19,6 +20,12 @@ const Project = () => {
   }, [inView, controls]);
 
   const projects = [
+    {
+      title: 'Yi Maintenance',
+      description : 'The "Project Yi Maintenance" for the Maintenance Department of PT Yasunaga Indonesia was developed using the Laravel 9 Framework and PostgreSQL database.',
+      image: yiMtcImage,
+      url: '',
+    },
     {
       title: 'Decision Support Systems',
       description: 'Project to create a decision support system application using the TOPSIS method in PHP.',

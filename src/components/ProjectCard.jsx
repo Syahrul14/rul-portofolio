@@ -4,7 +4,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectCard = ({ title, description, image, url }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200">
+    <div className="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200 flex flex-col h-full">
       <div className="relative w-full h-50 bg-gray-100 flex items-center justify-center group">
         <img className="object-contain h-full" src={image} alt={`${title} mockup`} />
         <div className="absolute inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -15,12 +15,13 @@ const ProjectCard = ({ title, description, image, url }) => {
           </a>
         </div>
       </div>
-      <div className="p-4">
+      <div className="p-4 flex-grow flex flex-col">
         <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
         <p className="text-gray-600">{description}</p>
       </div>
     </div>
   );
 };
+
 
 export default ProjectCard;
