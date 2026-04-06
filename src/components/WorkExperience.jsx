@@ -7,9 +7,16 @@ const WorkExperience = () => {
 
   const experiences = [
     {
+      company: "PT AmIT Global Soulutions",
+      position: "Software Developer",
+      period: "Jan 2026 - Mar 2026, Contract",
+      description: "As a Project-Based Developer at PT Berlian Sistem Informasi, I developed a Web CMS using Laravel 12, where I integrated the Instagram API for landing page displays, implemented SEO best practices to enhance visibility, and incorporated CKEditor into the admin panel while establishing efficient CI/CD pipelines using Docker and Azure.",
+      location: 'Jakarta',
+    },
+    {
       company: "PT Yasunaga Indonesia",
       position: "Programmer",
-      period: "Dec 2024 - Present, Fulltime",
+      period: "Dec 2024 - Nov 2025, Fulltime",
       description: "I developed the Yi Maintenance Data Trouble Machine web application using Laravel and a PostgreSQL database. In this project, I implemented data visualization features using Chart.js to display machine trouble graphs, and created a detailed Chokotei data page for easier issue analysis. I also designed and built an Oil Inventory module, added a feature for recording oil PM refill data, and generated oil usage reports for monitoring and evaluation purposes.",
       location: 'Serang',
     },

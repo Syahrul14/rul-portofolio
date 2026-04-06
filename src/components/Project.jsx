@@ -8,6 +8,8 @@ import palImage from '../assets/pal.png';
 import expenseImage from '../assets/expense.png';
 import rulfreelancerImage from '../assets/rulfreelancer.png';
 import yiMtcImage from '../assets/yi-mtc.webp';
+import adminCmsBsi from '../assets/admin_cms_bsi.webp';
+import landingPageBsi from '../assets/landing_page_bsi.webp';
 
 const Project = () => {
   const controls = useAnimation();
@@ -20,6 +22,18 @@ const Project = () => {
   }, [inView, controls]);
 
   const projects = [
+    {
+      title: 'Landing Page BSI',
+      description : 'Developed a high-performance landing page for PT Berlian Sistem Informasi using Laravel 12, featuring seamless Instagram API integration, optimized SEO.',
+      image: landingPageBsi,
+      url: 'https://www.bsi.co.id/',
+    },
+    {
+      title: 'Admin CMS BSI',
+      description : 'Built a streamlined Admin CMS for PT Berlian Sistem Informasi, enhancing the editorial experience through CKEditor implementation.',
+      image: adminCmsBsi,
+      url: 'https://www.bsi.co.id/',
+    },
     {
       title: 'Yi Maintenance',
       description : 'The "Project Yi Maintenance" for the Maintenance Department of PT Yasunaga Indonesia was developed using the Laravel 9 Framework and PostgreSQL database.',

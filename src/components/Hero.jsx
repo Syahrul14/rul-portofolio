@@ -54,7 +54,7 @@ const Hero = () => {
           I'm a Fullstack Developer
         </motion.h1>
         <motion.p className="lg:text-2xl font-bold mb-3" variants={itemVariants}>
-          2+ years of experience as a full-stack developer,
+          3+ years of experience as a full-stack developer,
         </motion.p>
         <motion.p className="lg:text-2xl mb-8" variants={itemVariants}>
           using Laravel and JavaScript frameworks such as React.js and Vue.js for web development.

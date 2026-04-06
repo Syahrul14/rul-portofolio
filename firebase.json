@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "rulportfolio",
     "public": "dist",
     "ignore": [
       "firebase.json",
